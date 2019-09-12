@@ -20,8 +20,8 @@ None.
 Role Variables
 --------------
 
-If you want to change user which will be added to Docker group
-change contents of `system_user` variable (see: `defaults/main.yml`)
+If you want to change the user which will be added to Docker group
+uncomment and change contents of `system_user` variable (see: `defaults/main.yml`)
 
 ```
 system_user: centos
@@ -42,7 +42,7 @@ Example Playbook
   become: yes
 
   roles:
-    - { role: AdnanHodzic.centos-docker-compose }
+    - { role: ansible-role-centos-docker-compose }
 ```
 
 License

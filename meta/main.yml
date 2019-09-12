@@ -1,5 +1,5 @@
 galaxy_info:
-  author: Adnan Hodzic
+  author: iMartzen
   description: Install and setup Docker and Docker Compose on any version of Centos Linux system.
 
   license: GPLv3
