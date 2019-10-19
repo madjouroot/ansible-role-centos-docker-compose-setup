@@ -1,6 +1,6 @@
 galaxy_info:
   author: iMartzen
-  description: Install and setup Docker and Docker Compose on any version of Centos Linux system.
+  description: Install and setup Docker and Docker Compose on any version of CentOS/RedHat Linux system.
 
   license: GPLv3
 
@@ -10,6 +10,9 @@ galaxy_info:
   - name: Centos
     versions:
     - all
+  - name: RedHat
+    version: 
+    - all 
 
   galaxy_tags:
   - development
@@ -17,3 +20,5 @@ galaxy_info:
   - docker
   - compose
   - centos
+  - redhat
+  - rhel 

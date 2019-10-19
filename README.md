@@ -1,7 +1,7 @@
 Ansible Role: Docker and Docker Compose setup
 =========
 
-**Install and Setup Docker and Docker Compose on any Centos Linux system.**
+**Install and Setup Docker and Docker Compose on any CentOS/RedHat Linux system.**
 
 This Ansible role will perform all necessary tasks to setup and run Docker and Docker Compose:
 
@@ -24,7 +24,7 @@ If you want to change the user which will be added to Docker group
 uncomment and change contents of `system_user` variable (see: `defaults/main.yml`)
 
 ```
-system_user: centos
+system_user: docker
 ```
 
 Dependencies
